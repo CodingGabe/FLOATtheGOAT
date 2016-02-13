@@ -1,0 +1,128 @@
+.btn-custom {
+  background-color: hsl(145, 43%, 65%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d6efe0", endColorstr="#7fcc9f");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#d6efe0), to(#7fcc9f));
+  background-image: -moz-linear-gradient(top, #d6efe0, #7fcc9f);
+  background-image: -ms-linear-gradient(top, #d6efe0, #7fcc9f);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d6efe0), color-stop(100%, #7fcc9f));
+  background-image: -webkit-linear-gradient(top, #d6efe0, #7fcc9f);
+  background-image: -o-linear-gradient(top, #d6efe0, #7fcc9f);
+  background-image: linear-gradient(#d6efe0, #7fcc9f);
+  border-color: #7fcc9f #7fcc9f hsl(145, 43%, 59%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.39);
+  -webkit-font-smoothing: antialiased;
+  border-radius: 20px;
+}
+
+.font {
+  font-family: 'Kaushan Script', cursive;
+}
+
+#event_brand {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    color: #A1CCB8;
+    text-shadow: 2px 2px #272E2B;
+}
+
+.panel-body {
+    color: #A1CCB8;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;  
+}
+
+.header {
+  font-family: 'Kaushan Script', cursive;;
+  color: #F285AB;
+  text-shadow: 2px 2px white;
+}
+
+.list-color {
+  color: #A1CCB8;
+}
+
+.artist-bg {
+  width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/artist.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#sponsor {
+  background-color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+a, a:hover {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding: 5px;
+}
+
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.socialbtns .fa {
+    color: #FFF;
+    text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -webkit-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -moz-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    -o-text-shadow: 1px 1px 0px #000,
+            1px -1px 0px #000,
+            -1px 1px 0px #000,
+            -1px -1px 0px #000;
+    transition: all ease-out 0.5s;
+    -moz-transition: all ease-out 0.5s;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+}
+
+.socialbtns .fa:hover {
+    color: #000;
+    text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -webkit-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -moz-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    -o-text-shadow: 1px 1px 0px #fff,
+            1px -1px 0px #fff,
+            -1px 1px 0px #fff,
+            -1px -1px 0px #fff;
+    transition: all ease 0.5s;
+    -moz-transition: all ease-in 0.5s;
+    -webkit-transition: all ease-in 0.5s;
+    -o-transition: all ease-in 0.5s;
+}
