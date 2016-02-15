@@ -21,7 +21,7 @@
 }
 
 #event_brand {
-    font-family: 'Kaushan Script', cursive;
+    font-family: myFirstFont
     font-size: 2em;
     color: #A1CCB8;
     text-shadow: 2px 2px #272E2B;
@@ -29,7 +29,7 @@
 
 .panel-body {
     color: #A1CCB8;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;  
 }
 
@@ -125,4 +125,15 @@ a, a:hover {
     -moz-transition: all ease-in 0.5s;
     -webkit-transition: all ease-in 0.5s;
     -o-transition: all ease-in 0.5s;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(../fonts/edosz.ttf);
+}
+
+.sickfont {
+  font-family: myFirstFont;
+  color: #F285AB;
+  text-shadow: 2px 2px white;
 }
